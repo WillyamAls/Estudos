@@ -1,0 +1,76 @@
+/* Iniciando Meu Primeiro Arquivo CSS */
+body{
+    color: #a52a2a;
+    background: linear-gradient(270deg, rgba(2,0,36,1) 14%, rgba(0,212,255,0.2554271708683473) 97%);
+    min-height: 100vh;
+}
+div{
+    color: rgb(5, 17, 5);
+}
+.container {
+   max-width: 700px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 16px;
+}
+
+.destaque{
+    color: darkred;
+}
+
+.profile {
+    margin-top: 100px;
+    margin-bottom: 56px;
+}
+
+.profile__header img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto 24px auto;
+}
+
+.profile__header h2 {
+    font-weight: 300;
+}
+
+.profile__header h1, .profile__header h2 {
+     margin: 0;
+}
+
+.profile__header, .profile__about {
+    text-align: center;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links a {
+    display: flex;
+    height: 56px;
+    border: solid red 1px;
+    border-radius: 35px;
+    text-decoration: none;
+    padding: 0 24px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.links a:hover {
+    border: solid white 1px;
+    color: white;
+    background: brown;
+}
+
+@media screen and (max-width: 720px) {
+    .profile__about {
+        font-size: 20px;
+     }
+}
